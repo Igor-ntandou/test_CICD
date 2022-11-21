@@ -1,8 +1,15 @@
 {
-	"devDependencies": {
-		"husky": "^8.0.2"
-	},
-	"scripts": {
-		"prepare": "husky install"
-	}
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,json,md,mdx,html,css,scss}": "prettier --write",
+    "*.{cs}": "dotnet csharpier"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
 }
