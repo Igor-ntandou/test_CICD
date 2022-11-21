@@ -10,7 +10,6 @@
     "rules": [
       {
         "message": "Aurais-tu oublié de terminer certaines tâches ?",
-        "nonBlocking": "true",
         "regex": "(?:FIXME|TODO)"
       },
       {
